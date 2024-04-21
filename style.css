@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body , html{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+   
+} 
+.card{
+    height: 500px;
+    width: 350px;
+    background: linear-gradient(135deg, #00feba, #5b548a);
+    border-radius: 10px;
+   
+
+}
+
+.data{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    gap: 15px;
+    margin-top: 8%;
+}
+
+.data input{
+    width: 250px;
+    border-radius: 20px;
+    height: 45px;
+    background-color: white;
+    font-size: 15px;
+    text-align: center;
+    color: black;
+    border: none;
+}
+
+.data button{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: white;
+    cursor: pointer;
+    text-decoration: none;
+    border: none;
+}
+.data img{
+    height: 30px;
+    width: 30px;
+    object-position: center;
+    object-fit: cover;
+}
+
+.detailes{
+    display: flex;
+    justify-content:center ;
+    align-items:center;
+    flex-direction: column;
+    margin-top: 12%;
+    gap: 5px;
+   
+}
+
+.detailes img{
+    height: 120px;
+    width: 200px;
+    border-radius: 20px;
+
+}
+
+.detailes h1{
+    font-size: 50px;
+    color: white;
+    text-decoration: none;
+    
+}
+
+.city{
+    margin-top: 8%;
+}
+.detailes h2{
+    font-size: 35px;
+    color: white;
+    text-decoration: none;
+
+}
+
+.weather{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    margin-top: 15%;
+   
+}
+
+.col1{
+    display: flex;
+    align-items: center;
+    text-align: left;
+}
+
+.col1 img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.hum, .win{
+    font-size: 20px;
+    margin-top: -6px;
+    color: white;
+}
+
