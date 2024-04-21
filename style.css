@@ -20,8 +20,8 @@ html {
   align-items: center;
 }
 .card {
-  height: 100px;
-  width: 350px;
+  height: 120px;
+  width: 370px;
   background: linear-gradient(135deg, #00feba, #5b548a);
   border-radius: 10px;
   overflow: hidden;
@@ -117,4 +117,12 @@ html {
   font-size: 20px;
   margin-top: -6px;
   color: white;
+}
+
+.error_msg{
+    text-align: left;
+    margin-left: 10px;
+    font-size: 14px;
+    margin-top: 10px;
+    display: none;
 }
